@@ -11,6 +11,7 @@ def minSwapsCouples(row) -> int:
     rowDict ={}
     counter = 0
     
+    #use a dictionary + a list to quickly indexig index and couples at the same time
     for i in range(N):
         rowDict[row[i]] = i
     
